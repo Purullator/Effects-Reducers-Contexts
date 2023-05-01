@@ -1,4 +1,5 @@
 .button {
+  width: 100%;
   font: inherit;
   border: 1px solid #4f005f;
   background: #4f005f;
@@ -27,4 +28,10 @@ button:active:disabled {
   border-color: #ccc;
   color: #666666;
   cursor: not-allowed;
+}
+
+@media (min-width: 768px) {
+  .button {
+    width: auto;
+  }
 }

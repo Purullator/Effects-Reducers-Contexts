@@ -1,4 +1,4 @@
-# Project App
+# useEffect, useReducer, Context API
 
 # Getting Started with Create React App
 
